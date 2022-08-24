@@ -21,6 +21,8 @@ public class LoginPage {
 	private By register=By.xpath("//a[text()='Register' and @class='list-group-item']");
 	
 	private By orderhis= By.xpath("//a[text()='Order History' and @class='list-group-item']");
+	
+	private By rp = By.xpath("//a[text()='Reward Points']");
 		
 	
 	public LoginPage(WebDriver driver)
